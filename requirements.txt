@@ -66,3 +66,6 @@ werkzeug==0.16.1
 # Uncomment the requirement for ldap3 if using ldap.
 # It is not included by default because of the GPL license conflict.
 # ldap3==2.2.4
+
+# Fix build
+greenlet==0.4.16 # https://github.com/python-greenlet/greenlet/issues/178#issuecomment-698874295
